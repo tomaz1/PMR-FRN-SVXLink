@@ -68,7 +68,7 @@ Po kliku na ikonico se v odlagališče skopirajo vsi ukazi. Uporabimo zadnjega, 
 
 https://ssh.nasadomena.si
 
-In po CA prijavi se pokaže okno, kjer se lahko prijavimo na RPI3:
+In po 2FA CloudFlare prijavi se pokaže okno, kjer se lahko prijavimo na RPi3:
 
 ![alt text](/img/image-prijava.png)
 

@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning].
 
 ## [Unreleased]
 
-- /
+- Ideja: da bi imeli več wget ukazov, in bi lahko enostavneje namestili zadevo, tudi samo navodilo bi bilo tako lahko krajše :)
 
 ## [0.0.2] - 2024-12-14
 
@@ -23,19 +23,6 @@ and this project adheres to [Semantic Versioning].
 ## [0.0.1] - 2024-12-14
 
 - initial release
-
-### Added
-
-### Changed
-
-### Deprecated
-
-### Removed
-
-### Fixed
-
-### Security
-
 
 <!-- Links -->
 [keep a changelog]: https://keepachangelog.com/en/1.0.0/
