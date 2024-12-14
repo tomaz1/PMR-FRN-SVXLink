@@ -13,7 +13,18 @@ and this project adheres to [Semantic Versioning].
 
 ### Added
 
-- 
+- dodana datoteka ModuleFrn.conf (zaradi enostavnejšega wget)
+- dodana datoteka Module.tcl (zaradi enostavnejšega wget)
+
+### Changed
+
+- v datoteki ModuleFrn.conf in README spremenjena verdnost SERVER_BACKUP=pmr.si
+
+## [0.0.1] - 2024-12-14
+
+- initial release
+
+### Added
 
 ### Changed
 
@@ -25,9 +36,6 @@ and this project adheres to [Semantic Versioning].
 
 ### Security
 
-## [0.0.1] - 2024-12-14
-
-- initial release
 
 <!-- Links -->
 [keep a changelog]: https://keepachangelog.com/en/1.0.0/

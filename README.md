@@ -255,8 +255,8 @@ TIMEOUT=300
 SERVER=pmr.si
 PORT=10024
 
-# backup server (Bo to ostalo za backup ?)
-SERVER_BACKUP=slovenija-frn.ddns.net
+# backup server (Zaenkrat ga ni zato nastavimo enako pmr.si)
+SERVER_BACKUP=pmr.si
 PORT_BACKUP=10024
 
 # login details
