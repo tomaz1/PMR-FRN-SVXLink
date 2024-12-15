@@ -8,19 +8,21 @@ FRN network with SvxLink on PMR
 
 https://www.raspberrypi.com/software/
 
-### 2.) Izberemo “Raspberry Pi OS (other) → Raspberry Pi OS Lite (**32-bit**)
+### 2.) Izberemo "Raspberry Pi OS (other)" → Raspberry Pi OS Lite (**32-bit**)
+
+Izberemo "A port of Debian **Bookworm** with no desktop environment"
 
 ### 3.) Predeno zapišemo na kartico, izberemo "EDIT SETTINGS"
 
 in nastavimo hostname, nastavimo uporabniško ime in geslo. Omogočimo  SSH (zavihek Services), nastavimo wifi, če ga bomo uporabljali.
 
-### 4.) Zapišemo na SD kartico in jo vstavimo v RPI3
+### 4.) Zapišemo na SD kartico in jo vstavimo v RPi3
 
-Priklopimo RPI3. Zgodi se generiranje SSH ključev in 2-3x reboot, konec je šele, ko pokaže IP in čaka na vpis gesla.
+Priklopimo RPi3. Zgodi se generiranje SSH ključev in 2-3x reboot, konec je šele, ko pokaže IP in čaka na vpis gesla.
 
 P.S.: wifi (wireless) je na začetku izklopljen, če ga ne potrebujemo niti ne bomo nastavili WLAN Country v raspi-config (točka v programu: *5. → L4*)
 
-V nastavitve RPI3 pridemo z ukazom:
+V nastavitve RPi3 pridemo z ukazom:
 
 ```bash
 sudo su -
@@ -50,8 +52,8 @@ Verjetno nepotrebno, ker se bomo oddaljeno prijavljali preko terminalske SSH sej
 
 #### "8 Update"
 
-ali ročno “apt update”, “apt upgrade” nato po potrebi “y” (yes)
-Obstaja tudi ukaz: “apt full-upgrade”
+ali ročno "apt update", "apt upgrade" nato po potrebi "y" (yes)
+Obstaja tudi ukaz: "apt full-upgrade"
 
 ```bash
 reboot
@@ -135,7 +137,7 @@ Kako ugotovimo serijski port za AIOC:
 ls -l /dev/serial/by-id/
 #total 0
 #lrwxrwxrwx 1 root root 13 Dec  6 22:21 usb-AIOC_All-In-One-Cable_56a33314-if04 -> ../../ttyACM0
-#in vidimo da je **/dev/ttyACM0**
+#in vidimo, da je **/dev/ttyACM0**
 #ali 
 dmesg | grep tty
 #...
@@ -143,11 +145,16 @@ dmesg | grep tty
 #in isti rezultat ttyACM0
 ```
 
-Vidimo da je /dev/ttyACM0
+Vidimo, da je /dev/ttyACM0
 
 ### Nastavitve svxlink.conf (**NI ŠE KONČNA VERZIJA; v delu**):
 
 [Žigova svxlink.conf datoteka !](./etc/svxlink/svxlink.conf) - za Baofeng 888
+
+15. 12. 2024: Tomaž: Testiral
+
+
+
 
 ```bash
 #naredimo varnostno kopijo
@@ -266,7 +273,7 @@ DYN_PASSWORD=GESLO
 CLIENT_TYPE=1
 CALLSIGN_AND_USER="S5PMRxxx, Ime"
 BAND_AND_CHANNEL="446.xxxxxFM CTCSS 123.0Hz"
-DESCRIPTION="SvxLink, RPi3, Baofeng UV5R, AIOC, Yagi antena na strehi"
+DESCRIPTION="CH1x(SUB18), SvxLink, RPi3, Baofeng UV5R, AIOC, Yagi antena na strehi"
 COUNTRY=Slovenia
 CITY_CITY_PART="Kraj - Predel kraja"
 NET=Test
@@ -370,17 +377,27 @@ tail -f /var/log/svxlink
 ## 9.) Nastavitev oddaljenega SSH dostopa preko brskalnika (brez odpiranja portov)
 
 Oddaljen SSH dostop je možen na več načinov:
-  - [Navodilo za dostop z uporabo storitve CloudFlare Zero Trust](README-CloudFlare.md)
+  - [Navodilo za dostop z uporabo storitve CloudFlare Zero Trust](/Navodila/README-CloudFlare.md)
 
 <br>
-<br>
 <hr>
+
+## 10.) Če imate težave z VOX sprejemanjem?
+
+Če vas radijska postaja sprejema in pošilja v FRN omrežje vendar se pogosto dogaja, da če ste tiho VOX ne zazna govora in prekine pošiljanje v FRN omrežje. 
+
+[Nadgradnja AIOC na firmware 1.3 in uporaba proženja preko HIDRAW namesto preko serijskega porta (Navodilo, povezava na navodila).](Navodila/AIOC-upgrade-FW-to-1.3.md)
 
 ## Pomoč / Viri
 
 - [Github SvxLink](https://github.com/sm0svx/svxlink)
 - [SvxLink Discussions](https://groups.io/g/svxlink)
 - [AIOC adapter](https://github.com/skuep/AIOC)
+
+## PMR Slovenija - Discord skupina
+
+[![Join discord PMR Slovenia](/img/image-pmr-discord.png)](https://discord.gg/uJwU4dH3hF)
+
 
 
 ## Zahvale
@@ -391,4 +408,4 @@ Oddaljen SSH dostop je možen na več načinov:
 <hr>
 Datum: 12/2024 
 
-[@tomaz1](https://github.com/tomaz1) - priprava navodil.
+[@Tomaz1](https://github.com/tomaz1) - priprava navodil.

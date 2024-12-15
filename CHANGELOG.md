@@ -9,12 +9,13 @@ and this project adheres to [Semantic Versioning].
 
 - Ideja: da bi imeli več wget ukazov, in bi lahko enostavneje namestili zadevo, tudi samo navodilo bi bilo tako lahko krajše :)
 
-## [0.0.2] - 2024-12-14
+## [0.0.2] - 2024-12-16
 
 ### Added
 
 - dodana datoteka ModuleFrn.conf (zaradi enostavnejšega wget)
 - dodana datoteka Module.tcl (zaradi enostavnejšega wget)
+- dodan razdelek AIOC in kako se nagradi AIOC firmware na v1.3
 
 ### Changed
 
