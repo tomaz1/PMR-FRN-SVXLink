@@ -116,7 +116,8 @@ vi /etc/svxlink/svxlink.conf
 [Datoteka svxlink.conf](../etc/svxlink/svxlink-HID.conf)
 (datoteko bo potrebno preimenovati, če boste uporabili točno to datoteko)
 
-<a name="Rx"></a>
+<a name="Rx1"></a>
+
 ```bash
 ###############################################################################
 #                                                                             #

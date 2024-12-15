@@ -384,7 +384,7 @@ Oddaljen SSH dostop je možen na več načinov:
 
 ## 10.) Če imate težave z VOX sprejemanjem?
 
-Če vas radijska postaja sprejema in pošilja v FRN omrežje vendar se pogosto dogaja, da če ste tiho VOX ne zazna govora in prekine pošiljanje v FRN omrežje. 
+Če vas radijska postaja sprejema in pošilja v FRN omrežje, vendar se pogosto dogaja, da če ste tiho VOX ne zazna govora in prekine pošiljanje v FRN omrežje. 
 
 [Nadgradnja AIOC na firmware 1.3 in uporaba proženja preko HIDRAW namesto preko serijskega porta (Navodilo, povezava na navodila).](Navodila/AIOC-upgrade-FW-to-1.3.md)
 
