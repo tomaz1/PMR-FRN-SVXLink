@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning].
 
 - Ideja: da bi imeli več wget ukazov, in bi lahko enostavneje namestili zadevo, tudi samo navodilo bi bilo tako lahko krajše :)
 
+## [0.0.3] - 2024-12-xx
+
 ## [0.0.2] - 2024-12-16
 
 ### Added
@@ -30,6 +32,7 @@ and this project adheres to [Semantic Versioning].
 [semantic versioning]: https://semver.org/spec/v2.0.0.html
 
 <!-- Versions -->
-[unreleased]: https://github.com/tomaz1/PMR-FRN-SvxLink/compare/v0.0.2...HEAD
+[unreleased]: https://github.com/tomaz1/PMR-FRN-SvxLink/compare/v0.0.3...HEAD
+[0.0.3]: https://github.com/tomaz1/PMR-FRN-SvxLink/compare/v0.0.2...v0.0.3
 [0.0.2]: https://github.com/tomaz1/PMR-FRN-SvxLink/compare/v0.0.1...v0.0.2
 [0.0.1]: https://github.com/tomaz1/PMR-FRN-SvxLink/releases/tag/v0.0.1

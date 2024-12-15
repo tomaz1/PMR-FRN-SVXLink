@@ -187,8 +187,8 @@ DTMF_DIGIT_PWR=-15
 ```
 <br>
 
-## Nadgradnja AIOC firmware na 1.3 RC2
 <a name="AIOC_1.3RC2"></a>
+## Nadgradnja AIOC firmware na 1.3 RC2
 
 Ko imate nameščena orodja potem.
 AIOC mora biti v DFC načinu:
