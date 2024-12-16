@@ -223,9 +223,8 @@ aioc = hid.Device(vid=0x0d8c, pid=0x000c)
 
 ## Težave
 
-Takoj po Tx (oddajanju) se sproži za cca 500ms Rx. Pri VOX proženju je možno nastaviti razne delaye in ni težav, pri HIDRAW pa tega ni. 
-
-Spodaj je razložena (začasna) rešitev, a bolje kot nič je, da imam dve Rx sekciji in "Voter":
+ - Takoj po Tx (oddajanju) se sproži za cca 500ms Rx. Pri VOX proženju je možno nastaviti razne delaye in ni težav, pri HIDRAW pa tega ni.  
+ Spodaj je razložena (začasna) rešitev, a bolje kot nič je, da imam dve Rx sekciji in "Voter":
 
 <sup>([Za Rx1 poglej zgoraj](#Rx1))</sup>
 
@@ -252,6 +251,6 @@ HYSTERESIS=50
 - [AIOC - github](https://github.com/skuep/AIOC)
 - https://g1lro.uk/?p=676
 - [Video how to upgrade](https://www.youtube.com/watch?v=7LB6D2FLGZk&ab_channel=HamRadioDX)
-- AIOC and SvxLink preko HIDRAW: [tu](https://github.com/skuep/AIOC/issues/86).
+- [AIOC and SvxLink preko HIDRAW](https://github.com/skuep/AIOC/issues/86).
 
 
