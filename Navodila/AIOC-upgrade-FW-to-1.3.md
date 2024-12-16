@@ -202,7 +202,7 @@ dfu-util -a 0 -s 0x08000000 -D aioc-fw-1.3.0-rc.1.bin
 Datoteka **[aioc-1.3.0-RC.2.py](../AIOC/aioc-1.3.0-RC.2.py)** datoteke, da nastavimo VID in PID na CM108:
 
 ```bash
-wget https://github.com/tomaz1/PMR-FRN-SvxLink/blob/main/AIOC/aioc-1.3.0-RC.2.py
+wget https://raw.githubusercontent.com/tomaz1/PMR-FRN-SvxLink/refs/heads/main/AIOC/aioc-1.3.0-RC.2.py
 python aioc-1.3.0-RC.2.py
 ```
 
