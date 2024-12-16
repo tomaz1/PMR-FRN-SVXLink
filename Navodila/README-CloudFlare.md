@@ -104,6 +104,7 @@ TODO: dodati navodilo, kako se prijavimo s certifikatom in kako ga pripravimo.
     S programom nmtui, če je potrebno, lahko nastavimo na statični IP.
 
     Vpišemo dva DNS strežnika:
+    
     ![Vpisana DNS zapisa](/img/image-nmtui-DNS.png)
 
     Preverimo:
