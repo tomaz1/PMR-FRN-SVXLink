@@ -192,7 +192,7 @@ DTMF_DIGIT_PWR=-15
 ## Nadgradnja AIOC firmware na 1.3 RC2
 
 Ko imate nameščena orodja potem.
-AIOC mora biti v DFC načinu:
+AIOC mora biti v DFU načinu:
 ```bash
 wget https://github.com/skuep/AIOC/releases/download/v1.3.0-rc.2/aioc-fw-1.3.0-rc.2.bin
 
