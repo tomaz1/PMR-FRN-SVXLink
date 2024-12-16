@@ -199,21 +199,11 @@ wget https://github.com/skuep/AIOC/releases/download/v1.3.0-rc.2/aioc-fw-1.3.0-r
 dfu-util -a 0 -s 0x08000000 -D aioc-fw-1.3.0-rc.1.bin
 
 ```
-Vsebina **[aioc-RC2.py](../AIOC/aioc-RC2.py)** datoteke, da nastavimo VID in PID na CM108:
+Datoteka **[aioc-RC2.py](../AIOC/aioc-1.3.0-RC.2.py)** datoteke, da nastavimo VID in PID na CM108:
 
 ```bash
-# python aioc-RC2.py
-#...
-if True:
-    # Set USB VID and PID (use with caution. Will need changes above to be able to re-configure the AIOC)
-    vid = 0x0d8c # Set VID here
-    pid = 0x000c # Set PID here
-    write(aioc, Register.USBID, (vid << 0) | (pid << 16))
-    print(f'Now USBID: {read(aioc, Register.USBID):08x}')
-if True:
-    # Store settings into flash
-    print(f'Storing...')
-    cmd(aioc, Command.STORE)
+wget https://github.com/tomaz1/PMR-FRN-SvxLink/blob/main/AIOC/aioc-1.3.0-RC.2.py
+python aioc-1.3.0-RC.2.py
 ```
 
 Če bo potreben revert iz RC.2 na original VID in PID, ali upgrade, moramo uporabiti ustrezen VID in PID, kot ga imamo nastavljenega na napravi, kot je [razloženo tu](../AIOC/www.g1lro.uk-v1.3-RC.1/aioc-revert.py).
