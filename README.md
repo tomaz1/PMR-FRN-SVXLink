@@ -203,7 +203,7 @@ FX_GAIN_LOW=-12
 
 [Rx1]
 TYPE=Local
-#Spremenimo na koncu iz 0 v 2 (ker smo zgoraj ugotovili, da je zvočna kartica št 2)
+#Spremenimo iz 0 v 2 (ker smo zgoraj ugotovili, da je zvočna kartica št 2)
 AUDIO_DEV=alsa:plughw:2
 AUDIO_CHANNEL=0
 SQL_DET=VOX
@@ -232,7 +232,7 @@ PTT_PORT=/dev/ttyACM0
 PTT_PIN=DTR!RTS
 TIMEOUT=300
 TX_DELAY=500
-#Preverite ali je bolje če je PREEMPHASIS 1 ali 0 (odvisno od postaje)
+#Preverite ali je bolje, če je PREEMPHASIS 1 ali 0 (odvisno od postaje)
 #PREEMPHASIS=1
 PREEMPHASIS=0
 DTMF_TONE_LENGTH=100
