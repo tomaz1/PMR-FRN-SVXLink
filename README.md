@@ -81,6 +81,9 @@ Poiščemo oz. preverimo ali je AIOC kartica zaznana
 
 ```bash
 lsusb
+
+#dobiti moramo
+#Bus 001 Device 008: ID 1209:7388 Generic All-In-One-Cable
 ```
 
 Poiščemo ali je zaznalo zvočno kartico na AIOC, [vir](http://np2wj.com/echolink-node-on-raspberry-pi-using-svxlink-part-1/):
@@ -151,10 +154,6 @@ Vidimo, da je /dev/ttyACM0
 
 [Žigova svxlink.conf datoteka !](./etc/svxlink/svxlink.conf) - za Baofeng 888
 
-15. 12. 2024: Tomaž: Testiral
-
-
-
 
 ```bash
 #naredimo varnostno kopijo
@@ -210,7 +209,7 @@ AUDIO_CHANNEL=0
 SQL_DET=VOX
 SQL_START_DELAY=300
 SQL_DELAY=50
-SQL_HANGTIME=500
+SQL_HANGTIME=1500
 VOX_FILTER_DEPTH=100
 VOX_THRESH=75
 DEEMPHASIS=0
@@ -233,6 +232,7 @@ PTT_PORT=/dev/ttyACM0
 PTT_PIN=DTR!RTS
 TIMEOUT=300
 TX_DELAY=500
+#Preverite ali je bolje če je PREEMPHASIS 1 ali 0 (odvisno od postaje)
 #PREEMPHASIS=1
 PREEMPHASIS=0
 DTMF_TONE_LENGTH=100

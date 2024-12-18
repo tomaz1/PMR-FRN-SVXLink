@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning].
 
 ## [0.0.3] - 2024-12-xx
 
+### Changed
+
+- Razdelek na CloufFlare - Težave prestavljen v ločeno datoteko
+
 ## [0.0.2] - 2024-12-16
 
 ### Added
