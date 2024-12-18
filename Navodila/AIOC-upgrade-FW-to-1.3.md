@@ -14,6 +14,7 @@
  - RPi 3
  - prosto SD kartico
  - žičko
+ - in seveda AIOC :)
 
 ### 1.) Poženemo Raspberry Pi Imager
 
@@ -118,6 +119,7 @@ vi /etc/svxlink/svxlink.conf
 
 <a name="Rx1"></a>
 
+### *POZOR, to ni končna verzija .conf datoteke!*
 ```bash
 ###############################################################################
 #                                                                             #
@@ -191,15 +193,16 @@ DTMF_DIGIT_PWR=-15
 <a name="AIOC_1.3RC2"></a>
 ## Nadgradnja AIOC firmware na 1.3 RC2
 
-Ko imate nameščena orodja potem.
-AIOC mora biti v DFU načinu:
+Ker imate nameščena orodja za nadgradnjo (zgornja navodila)
+in že znate dati AIOC v DFU načinu, potem pa:
+
 ```bash
 wget https://github.com/skuep/AIOC/releases/download/v1.3.0-rc.2/aioc-fw-1.3.0-rc.2.bin
 
 dfu-util -a 0 -s 0x08000000 -D aioc-fw-1.3.0-rc.1.bin
 
 ```
-Datoteka **[aioc-1.3.0-RC.2.py](../AIOC/aioc-1.3.0-RC.2.py)** datoteke, da nastavimo VID in PID na CM108:
+Datoteka **[aioc-1.3.0-RC.2.py](../AIOC/aioc-1.3.0-RC.2.py)**, da nastavimo VID in PID na CM108:
 
 ```bash
 wget https://raw.githubusercontent.com/tomaz1/PMR-FRN-SvxLink/refs/heads/main/AIOC/aioc-1.3.0-RC.2.py
