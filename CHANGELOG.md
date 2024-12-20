@@ -15,6 +15,11 @@ and this project adheres to [Semantic Versioning].
 
 - Razdelek na CloufFlare - Težave prestavljen v ločeno datoteko
 
+### Added
+
+- Dodana prazna datoteka za RPi Connect
+- Dodana navodila za WireGuard - VPN-WireGuard.md
+
 ## [0.0.2] - 2024-12-16
 
 ### Added
