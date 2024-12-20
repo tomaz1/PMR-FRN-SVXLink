@@ -10,6 +10,9 @@ sudo apt install wireguard
 ```
 ### Priprava konfiguracijska datoteke
 
+Primer generiranja ključev na OpnSense, vsebino polja Config skopiramo v /etc/wireguard/wg0.conf:
+![Config](/img/image-WireGuard.png)
+
 ```
 #sudo vi ali sudo nano /etc/wireguard/wg0.conf
 sudo vi /etc/wireguard/wg0.conf
@@ -30,8 +33,6 @@ AllowedIPs = 0.0.0.0/0,::/0
 #AllowedIPs = 192.168.1.0/24,10.10.0.0/24
 PersistentKeepalive = 120
 ```
-Primer generiranja ključev na OpnSense:
-![Config](/img/image-WireGuard.png)
 
 ```bash
 sudo wg-quick up wg0
