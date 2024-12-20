@@ -6,9 +6,20 @@ FRN network with SvxLink on PMR
 
 <hr>
 
+## Discord skupina: PMR Slovenija
+
+[![Join discord PMR Slovenia](/img/image-pmr-discord.png)](https://discord.gg/uJwU4dH3hF)
+
+## PMR/FRN Povezave
+
+  - [Slo-Tech forum](https://slo-tech.com/forum/t796344/0) (Prvi Redni PMR446 SKED V Sloveniji)
+
+  - [![Facebook](/img/image-facebook.png)](https://www.facebook.com/groups/355467710574815/)
+
+
 ## 🧩 Predpogoji za postavitev SvxLinka
 
-- Računalnik z povezavo v internet (npr Raspberry PI)
+- Računalnik s povezavo v internet (npr Raspberry PI)
   ![RPi](img/image-RPI-pngfind.com-raspberry-png-853421.png)
 - vmesnik, da lahko povežeš željeno PMR postajo na ta računalnik (npr AIOC)
   ![Slika AIOC](img/image-Tilen-AIOC-20240526.jpg)
@@ -20,10 +31,13 @@ Primeri prehodov:
 ![FRN prehod](img/image-Tilen-FRN-prehod-20240526.jpg)
 ![FRN prehod](img/image-primer-frn_z.jpg)
 
-<sub>Vir: https://slo-tech.com/forum/t796344/249</sub>
-
 Ali moj prvi prehod na protobordu (2. 7. 2023) na JavaFRN Windows klientu:
 ![FRN prehod (old)](img/image-tomaz-2.6.2023.jpg)
+
+Evgenov prehod:
+![FRN prehod](img/image-Evgen-postaja-in-AIOC.jpg)
+
+![FRN antena](img/image-Evgen-Antena.jpg)
 
 Profesionalni FRN prehod:
 ![PRO FRN prehod](img/image-Tilen-profesionalni-FRN-prehod-notranjost-20240917.jpg)
@@ -37,11 +51,6 @@ Profesionalni FRN prehod:
 # Povezava do navodil za namestitev programske opreme:
 - ### [Koraki za namestitev programske opreme](Navodila/RPi3-glavna-navodila.md)
 <hr>
-
-## PMR Slovenija - Discord skupina
-
-[![Join discord PMR Slovenia](/img/image-pmr-discord.png)](https://discord.gg/uJwU4dH3hF)
-
 
 
 ## Zahvale

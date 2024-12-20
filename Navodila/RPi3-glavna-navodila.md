@@ -396,3 +396,15 @@ Oddaljen SSH dostop je možen na več načinov, navodila za dostop z uporabo:
 - [Github SvxLink](https://github.com/sm0svx/svxlink)
 - [SvxLink Discussions](https://groups.io/g/svxlink)
 - [AIOC adapter](https://github.com/skuep/AIOC)
+
+
+## Zahvale
+@Žiga<br>
+@Tilen<br>
+@Franc (Radovljica)<br>
+... **TODO - Dodati še vse ostale**
+
+<hr>
+Datum: 12/2024 
+
+[@Tomaz1](https://github.com/tomaz1) - priprava navodil.
