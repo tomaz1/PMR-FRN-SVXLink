@@ -18,7 +18,7 @@ sudo vi /etc/wireguard/wg0.conf
 [Interface]
 PrivateKey = .....=
 Address = 10.10.0.8/32
-DNS = 8.8.8.8
+#DNS = 8.8.8.8
 
 [Peer]
 PublicKey = .....=
