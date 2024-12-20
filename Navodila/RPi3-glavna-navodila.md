@@ -393,6 +393,8 @@ Oddaljen SSH dostop je možen na več načinov, navodila za dostop z uporabo:
 
 ## Pomoč / Viri
 
+- #### [Navodila za namesitev FRN prehoda na sistemu Java FRN](https://slo-tech.com/forum/t834577/p8355681?fbclid=IwZXh0bgNhZW0CMTAAAR3apADiQJbOcgX9zCMiAXMCZ_xrUPe8YrlSoydmHYD4oyywWxe3iKNXdxw_aem_7KIs547M3SwynhY7aNpZ_Q#p8355681) (Slo-Tech forum)
+
 - [Github SvxLink](https://github.com/sm0svx/svxlink)
 - [SvxLink Discussions](https://groups.io/g/svxlink)
 - [AIOC adapter](https://github.com/skuep/AIOC)

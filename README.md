@@ -49,7 +49,7 @@ Profesionalni FRN prehod:
 ![nameščen PRO FRN prehod](img/image-Tilen-nameščen-FRN-prehod-20241007.jpg)
 
 # Povezava do navodil za namestitev programske opreme:
-- ### [Koraki za namestitev programske opreme](Navodila/RPi3-glavna-navodila.md)
+- ### [Navodila za namesitev FRN prehoda na sistemu SvxLink](Navodila/RPi3-glavna-navodila.md) 
 <hr>
 
 
