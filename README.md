@@ -1,8 +1,22 @@
 # PMR-FRN-SvxLink
 
 FRN network with SvxLink on PMR
+## 🧩 Predpogoji za postavitev SvxLinka
 
-## 🛠️ Koraki za namestitev
+- Računalnik z povezavo v internet (npr Raspberry PI)
+- vmesnik, da lahko povežeš željeno PMR postajo na ta računalnik (npr AIOC)
+- Radijsko postajo.
+
+## 🔌/🔋 Napajanje
+(TODO)
+
+## 📷 Kako zgleda FRN prehod?
+Primer (potrebno še pridobiti novojšo sliko, kjer bo uporabljen AIOC adapter):
+![FRN prehod](img/image-primer-frn_z.jpg)
+
+<sub>(Vir: https://slo-tech.com/forum/t796344/249)</sub>
+
+# 🛠️ Koraki za namestitev
 
 ### 1.) Poženemo Raspberry Pi Imager
 

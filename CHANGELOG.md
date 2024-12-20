@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning].
 
 - Dodana prazna datoteka za RPi Connect
 - Dodana navodila za WireGuard - VPN-WireGuard.md
+- Dodani razdelki: Predpogoji za postavitev SvxLinka, Napajanje, Kako zgleda FRN prehod?
 
 ## [0.0.2] - 2024-12-16
 
