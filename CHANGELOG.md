@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning].
 
 - Ideja: da bi imeli več wget ukazov, in bi lahko enostavneje namestili zadevo, tudi samo navodilo bi bilo tako lahko krajše :)
 
-## [0.0.3] - 2024-12-xx
+## [0.0.3] - 2024-12-20
 
 ### Changed
 
