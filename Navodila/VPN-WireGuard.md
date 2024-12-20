@@ -25,10 +25,14 @@ PublicKey = .....=
 Endpoint = naslov.wireguard.streznika:port
 #Če želimo, da gre ves promet (tudi FRN) v VPN tunel:
 AllowedIPs = 0.0.0.0/0,::/0
-#Če ne želite, da gre ves promet v VPN lahko nastvite samo IP-je oz. segmente omrežij, katerih promet bo šel skozi WireGuard VPN tunel:
+#Če ne želite, da gre ves promet v VPN lahko nastvite samo IP-je
+#oz. segmente omrežij, katerih promet bo šel skozi WireGuard VPN tunel:
 #AllowedIPs = 192.168.1.0/24,10.10.0.0/24
 PersistentKeepalive = 120
 ```
+Primer generiranja ključev na OpnSense:
+![Config](/img/image-WireGuard.png)
+
 ```bash
 sudo wg-quick up wg0
 #preverite ali vam VPN povezava deluje
@@ -53,5 +57,5 @@ journalctl -u wg-quick@wg0
 ## Viri:
 - Namestitev WireGuard klienta: https://upcloud.com/resources/tutorials/get-started-wireguard-vpn
 - Namestitev WireGuard klienta na Rpi: https://wireguard.how/client/raspberry-pi-os/
-- Postavitev strežnika na OpnSense: https://www.zenarmor.com/docs/network-security-tutorials/how-to-setup-wireguard-on-opnsense
+- Postavitev WireGuard strežnika na OpnSense: https://www.zenarmor.com/docs/network-security-tutorials/how-to-setup-wireguard-on-opnsense
 
