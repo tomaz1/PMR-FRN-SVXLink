@@ -15,7 +15,7 @@ FRN network with SvxLink on PMR
 Primer (potrebno še pridobiti novojšo sliko, kjer bo uporabljen AIOC adapter):
 ![FRN prehod](img/image-primer-frn_z.jpg)
 
-<sub>(Vir: https://slo-tech.com/forum/t796344/249)</sub>
+<sub>Vir: https://slo-tech.com/forum/t796344/249</sub>
 
 # 🛠️ Koraki za namestitev
 
@@ -421,6 +421,7 @@ Oddaljen SSH dostop je možen na več načinov, navodila za dostop z uporabo:
 ## Zahvale
 @Žiga<br>
 @Tilen<br>
+@Franc (Radovljica)<br>
 ... **TODO - Dodati še vse ostale**
 
 <hr>
