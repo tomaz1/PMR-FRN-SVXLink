@@ -5,7 +5,8 @@ FRN network with SvxLink on PMR
 
 - Računalnik z povezavo v internet (npr Raspberry PI)
 - vmesnik, da lahko povežeš željeno PMR postajo na ta računalnik (npr AIOC)
-- Radijsko postajo.
+- Radijsko postajo
+- Napajanje za računalnik in radijsko postajo
 
 ## 🔌/🔋 Napajanje
 (TODO)
