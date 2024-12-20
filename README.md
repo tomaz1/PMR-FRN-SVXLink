@@ -17,6 +17,9 @@ Primer (potrebno še pridobiti novojšo sliko, kjer bo uporabljen AIOC adapter):
 
 <sub>Vir: https://slo-tech.com/forum/t796344/249</sub>
 
+Ali moj prvi prehod na protobordu (2. 7. 2023) na JavaFRN Windows klientu:
+![FRN prehod (old)](img/image-tomaz-2.6.2023.jpg)
+
 # 🛠️ Koraki za namestitev
 
 ### 1.) Poženemo Raspberry Pi Imager
